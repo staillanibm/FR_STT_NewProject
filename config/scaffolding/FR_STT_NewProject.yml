@@ -1,0 +1,13 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: FR_STT_NewProject
+  gitServerName: staillanibm
+  gitUrl: https://github.com/staillanibm
+  gitUsername: staillanibm
+  gitBranch: main
+- name: WmJDBCAdapter
+  version: 10.3.0.0.34
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
