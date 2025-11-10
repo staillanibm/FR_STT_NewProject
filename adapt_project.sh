@@ -30,9 +30,9 @@ NEW_PROJECT_FULL="${NEW_PROJECT_NAME}Project"
 NEW_PROJECT_LOWER=$(echo "$NEW_PROJECT_BASE" | tr '[:upper:]' '[:lower:]')
 
 # Old values
-OLD_PROJECT_FULL="FR_STT_ProjectTemplateProject"
-OLD_PROJECT_BASE="FR_STT_ProjectTemplate"
-OLD_PROJECT_LOWER="fr_stt_projecttemplate"
+OLD_PROJECT_FULL="FR_STT_NewProject"
+OLD_PROJECT_BASE="FR_STT_New"
+OLD_PROJECT_LOWER="fr_stt_new"
 
 echo -e "${YELLOW}Adapting project template...${NC}"
 echo "Old project name: $OLD_PROJECT_FULL"
